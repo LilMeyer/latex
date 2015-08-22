@@ -1,2 +1,2 @@
 all:
-	latex book_1_template.tex
+	pdflatex book_1_template.tex
