@@ -1,0 +1,78 @@
+%!TEX TS-program = xelatex
+\documentclass[]{class}
+% \addbibresource{bibliography.bib}
+
+
+% Define the column separation size in tabular
+\setlength{\tabcolsep}{6pt}
+
+
+\begin{document}
+
+% \thispagestyle{plain}
+
+Université de Sherbrooke\hfill
+Master Studies
+\par
+\rule{\textwidth}{1pt}
+\par\vspace{3pt}
+\begin{center}
+  \huge\textbf{\color{black}Trend quantifier system}
+\end{center}
+\par\vspace{3pt}
+\rule{\textwidth}{1pt}
+
+\par\vspace{15pt}
+
+\begin{large}
+  \begin{center}
+  \begin{tabular}{c c}
+    \textsc{Date:}& \textsc{\today}\\
+    \textsc{Due :}& \textsc{January 3, 2016}\vspace{3ex}
+  \end{tabular}
+  \end{center}
+\end{large}
+% \header{Romain}{Cotte}{Ingénieur informatique}
+
+% \par\vspace{20pt}
+
+\section{Problem definition}
+{\large\textbf{Goal:}} Given a list of words, determine and quantify their trend. Find the associated trends.\\
+\par
+{\large\textbf{Required tasks:}} You are in charge of developing
+\begin{itemize}
+  \item an engine which scraps the twitter website or consume the twitter api in order to store the number of word occurrences
+  \item a website to display results in graphics
+\end{itemize}
+
+\par\vspace{5pt}
+{\large\textbf{Bonus tasks:}}
+\begin{itemize}
+  \item suggest tweets for user
+\end{itemize}
+
+
+% Interface:
+% Elle devra comprendre une barre de recherche :
+
+
+ . Study the twitter api. Define possibilities.
+ . Take several tweets and save it in the database (it would be a base for the future development)
+ . Develop a twitter api consumer
+ . Analyse tweets,
+ . Develop website
+
+
+\newpage
+
+\begin{thebibliography}{1}
+
+  \bibitem{google-trend-example} Google trend example \url{https://www.google.com/trends/explore#q=Sherbrooke}
+
+  \bibitem{twitter-api-doc} Twitter API documentation \url{https://dev.twitter.com/overview/documentation}
+
+\end{thebibliography}
+
+\end{document}
+
+
