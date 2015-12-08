@@ -27,5 +27,5 @@ PATH="$PATH:/usr/local/texlive/2015/bin/x86_64-linux"
 
 
 References : 
- . [Texlive](ttps://www.tug.org/texlive/)
+ . [Texlive](https://www.tug.org/texlive/)
 
