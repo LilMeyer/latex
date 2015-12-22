@@ -1,7 +1,11 @@
 # Latex
 
-Texlive installation : 
+Texlive installation :
 ----------------------
+Remove the old version :
+```bash
+sudo apt-get purge texlive*
+```
 
 Download and unzip from the [site](ttps://www.tug.org/texlive/).
 Run the install-tl script.
@@ -12,7 +16,7 @@ Run the install-tl script.
  Most importantly, add /usr/local/texlive/2015/bin/x86_64-linux
  to your PATH for current and future sessions.
 
-From console : 
+From console :
 ```
 export INFOPATH=$INFOPATH:/usr/local/texlive/2015/texmf-dist/doc/info
 export MANPATH=$MANPATH:/usr/local/texlive/2015/texmf-dist/doc/man
@@ -26,6 +30,6 @@ PATH="$PATH:/usr/local/texlive/2015/bin/x86_64-linux"
 ```
 
 
-References : 
+References :
  . [Texlive](https://www.tug.org/texlive/)
 
